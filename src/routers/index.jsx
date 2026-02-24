@@ -5,6 +5,8 @@ import Home from "../pages/home";
 import Login from "../pages/login";
 import Register from "../pages/register";
 import DocsEditor from "../pages/docsEditor";
+import LearnPage from "../pages/learnPage";
+import AboutPage from "../pages/aboutPage";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: "/docs",
         element: <DocsEditor />,
+      },
+      {
+        path: "/learn",
+        element: <LearnPage />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
       }
     ],
   },
