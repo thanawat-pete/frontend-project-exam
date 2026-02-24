@@ -86,9 +86,11 @@ const Home = () => {
                     <br className="hidden md:block" /> ได้ทันทีอย่างแม่นยำและเป็นธรรมชาติ
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href='/docs'>
                     <button className="btn btn-primary rounded-md px-10 py-3 h-auto text-[17px] font-medium w-full sm:w-auto text-white tracking-wide">
                         เริ่มต้นใช้งาน
                     </button>
+                    </a>
                     <button className="btn btn-outline border-base-content/20 text-base-content hover:bg-base-200 hover:border-base-content/30 bg-base-100 shadow-sm rounded-md px-10 py-3 h-auto text-[17px] font-medium w-full sm:w-auto tracking-wide">
                         เรียนรู้เพิ่มเติม
                     </button>
